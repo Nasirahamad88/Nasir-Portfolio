@@ -22,19 +22,19 @@ const Facts = () => {
         <div className="row counters">
           <div className="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
-            <p>Clients</p>
+            <p>Clients: <span>5</span></p>
           </div>
           <div className="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter"></span>
-            <p>Projects</p>
+            <p>Projects: <span>15</span></p>
           </div>
           <div className="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" className="purecounter"></span>
-            <p>Hours Of Support</p>
+            <p>Hours Of Support: <span>30+</span></p>
           </div>
           <div className="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" className="purecounter"></span>
-            <p>Hard Workers</p>
+            <p>Hard Workers <span>11</span></p>
           </div>
         </div>
       </div>

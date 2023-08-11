@@ -10,9 +10,9 @@ const Footer = () => {
             <div className="footer-content">
                 <p>&copy; {new Date().getFullYear()} Fiverr BD. All rights reserved.</p>
                 <ul className="footer-links">
-                    <Link to="/">Home</Link>
-                    <Link to="/About">About</Link>
-                    <Link to="/Contact">Contact</Link>
+                    <li><Link to="/">Home</Link></li>
+                    <li> <Link to="/About">About</Link> </li>
+                    <li><Link to="/Contact">Contact</Link></li>
                 </ul>
             </div>
         </footer>

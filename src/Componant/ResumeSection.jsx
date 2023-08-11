@@ -1,11 +1,12 @@
 import React from 'react';
 import '../style.css'
+import Header from './Header';
 
 const ResumeSection = () => {
   return (
     <section id="resume" className="resume">
       <div className="container" data-aos="fade-up">
-        <div className="section-title">
+        <div className="section-title py-5">
           <h2>Resume</h2>
           <p>MD.Nasir Ahamad</p>
         </div>
@@ -49,6 +50,9 @@ const ResumeSection = () => {
             {/* Other professional experiences */}
           </div>
         </div>
+      </div>
+      <div>
+        <Header/>
       </div>
     </section>
   );

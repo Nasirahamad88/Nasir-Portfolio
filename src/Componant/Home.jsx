@@ -2,7 +2,7 @@ import React from 'react';
 // import './vendor/bootstrap-icons/font/bootstrap-icons.css';
 // import './vendor/bootstrap-icons/bootstrap-icons';
 // import './vendor/bootstrap/dist/css/bootstrap.min.css';
-
+import { Link } from "react-router-dom";
 import '../style.css'
 // import './vendor/boxicons/css/boxicons.min.css'
 // import './vendor/glightbox/css/glightbox.min.css'
@@ -27,7 +27,7 @@ const Home = () => {
         <div className="text-container">
           <h1>MD.Nasir Ahamad</h1>
           <h2>I'm a professional Web Developer</h2>
-          <a href="about.html" className="btn-about">About Me</a>
+          <Link to="/About" className="btn-about">About Me</Link>
         </div>
         <div className="image-container">
           {/* Render the image */}
