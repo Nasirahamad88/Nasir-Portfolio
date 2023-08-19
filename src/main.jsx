@@ -12,6 +12,7 @@ import Portfolio from './Componant/PortfolioSection';
 import Resume from './Componant/ResumeSection';
 import Services from './Componant/Services';
 import About from "./Componant/About";
+import Projects from "./Componant/Projects";
 
 
 const router = createBrowserRouter([
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/Resume",
     element: <Resume/>,
+  },
+  {
+    path: "/Projects",
+    element: <Projects/>,
   },
  
 ]);

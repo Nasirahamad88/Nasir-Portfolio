@@ -1,9 +1,11 @@
 import React from 'react';
 import '../style.css'
+import { Link } from "react-router-dom";
 import Pic1 from './img/portfolio/portfolio-1.jpg'
 import Pic2 from './img/portfolio/portfolio-2.png'
 import Pic3 from './img/portfolio/portfolio-3.png'
 import Header from './Header';
+import Projects from './Projects'
 // import Pic4 from '.Componant/img/portfolio/portfolio-4.jpg'
 
 const PortfolioSection = () => {
@@ -184,6 +186,9 @@ const PortfolioSection = () => {
                 </div>
             </div>
             <div>
+            <div className='section-title px-5 '>
+           <button type="button" className="btn btn-secondary btn-lg px-5"> <Link to="/Projects" className="">More Projects</Link></button>
+            </div>
             <Header/>
             </div>
         </section>

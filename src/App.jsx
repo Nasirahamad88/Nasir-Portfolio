@@ -11,6 +11,7 @@ import Services from './Componant/Services';
 
 import React from 'react';
 import Footer from './Componant/Footer';
+import Projects from './Componant/Projects';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Home/>
       <Services/>
       <PortfolioSection/>
+      <Projects/>
       <ResumeSection/>
       <ContactSection/>
       <Footer/>

@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <header id="header" className="fixed-top">
       <div className="container-fluid d-flex justify-content-between align-items-center">
-        <h1 className="logo me-auto me-lg-1"><Link to="./">Nasir Portfolio</Link></h1>
+        <h1 className="logo me-auto me-lg-1"><Link to="/">Nasir Portfolio</Link></h1>
 
         <nav id="navbar" className="navbar order-last order-lg-0">
           <ul>
@@ -38,7 +38,7 @@ const Header = () => {
           <a href="" className="twitter"><i className="bi bi-twitter"></i></a>
           <Link to="https://www.facebook.com/lightsnasir.nasir" className="facebook"><i className="bi bi-facebook"></i></Link>
           <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-          <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/nasir-ahamad-b38346289/" className="linkedin"><i className="bi bi-linkedin"></i></a>
           <a href="https://github.com/Nasirahamad88" className="Github"><i className="bi bi-github"></i></a>
         </div>
       </div>
